@@ -11,9 +11,9 @@ const _layout = () => {
         <StatusBar barStyle={'light-content'} backgroundColor={Colors.background} />
         <Stack>
             <Stack.Screen name='index' options={{headerShown: false}} />
-            <Stack.Screen name='(pages)/Chat' options={{headerShown: false}} />
-            <Stack.Screen name='(pages)/PageAddContact' options={{headerShown: false}} />
-            <Stack.Screen name='(pages)/OpenConversation' options={{headerShown: false}} />
+            <Stack.Screen name='(pages)/ChatPage' options={{headerShown: false}} />
+            <Stack.Screen name='(pages)/AddContactPage' options={{headerShown: false}} />
+            <Stack.Screen name='(pages)/OpenConversationPage' options={{headerShown: false}} />
         </Stack>
         <Toast.Component/>
       </View>
